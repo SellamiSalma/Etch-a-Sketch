@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-color: lightgrey;
+}
+button{
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  margin-top: 40px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+}
+.GridContainer{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
